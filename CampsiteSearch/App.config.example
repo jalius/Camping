@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <appSettings>
+      <add key="parkIds"/> <!--//70928,70925,72159,70929,70928,70927,70926,-->
+      <add key="username"/>
+      <add key="password"/>
+      <add key="start date"/> <!--due to the nature of the web requests, our program finds all listing 14 days starting from this date-->
+      <add key="dates"/> <!--make sure these are within 2 weeks from start date above-->
+    </appSettings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+</configuration>
